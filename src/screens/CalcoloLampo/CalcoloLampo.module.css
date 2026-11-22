@@ -1,0 +1,58 @@
+.main {
+  max-width: 560px;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: calc(var(--safe-top) + 0.75rem) 1.25rem calc(var(--safe-bottom) + 2rem);
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--font-size-card-title);
+}
+
+.progress {
+  margin: 0.35rem 0 0;
+  color: var(--text-muted);
+}
+
+.prompt {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.feedback {
+  margin: 0 0 1rem;
+  text-align: center;
+  color: var(--sea-sky-deep);
+  font-weight: 700;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.choice {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.doneText {
+  margin: 0;
+  font-size: 1.25rem;
+}

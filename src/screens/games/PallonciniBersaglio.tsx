@@ -1,0 +1,1 @@
+export { CalcoloLampo as PallonciniBersaglio } from "@screens/CalcoloLampo/CalcoloLampo";

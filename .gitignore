@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next
+/.next/
+/out/
+next-env.d.ts
+
+# debug
+npm-debug.log*
+
+# env
+.env*.local
+
+# typescript
+tsconfig.tsbuildinfo
+
+# ide
+.DS_Store
+.idea
+*.swp
+
+# serwist
+public/sw.js
+public/sw.js.map

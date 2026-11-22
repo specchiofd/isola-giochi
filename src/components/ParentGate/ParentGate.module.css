@@ -1,0 +1,54 @@
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(126 200 227 / 35%);
+  font-size: 0.875rem;
+}
+
+.gateLabel {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.input {
+  width: 3rem;
+  padding: 0.25rem 0.35rem;
+  font: inherit;
+  border: 1px solid var(--sea-sky);
+  border-radius: 8px;
+}
+
+.error {
+  color: var(--coral-deep);
+}
+
+.panel {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgb(255 255 255 / 85%);
+  border-radius: var(--radius-bubble);
+  font-size: 0.9rem;
+}
+
+.instructions {
+  margin: 0.5rem 0;
+}
+
+.checkRow {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

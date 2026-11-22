@@ -1,0 +1,32 @@
+{
+  "name": "isola-giochi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && serwist build && node scripts/copy-sw-to-out.mjs",
+    "serwist": "serwist build",
+    "lint": "eslint .",
+    "ts-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "i18next": "^25.0.0",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^16.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@serwist/cli": "^9.0.0",
+    "@serwist/next": "^9.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "serwist": "^9.0.0",
+    "typescript": "^5.0.0"
+  }
+}

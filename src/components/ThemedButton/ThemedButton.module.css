@@ -1,0 +1,35 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-min);
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: var(--radius-bubble);
+  font-size: var(--font-size-kid-body);
+  font-weight: 600;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.button:active {
+  transform: scale(0.97);
+  box-shadow: var(--shadow-press);
+}
+
+.primary {
+  background: var(--coral-play);
+  color: #fff;
+}
+
+.secondary {
+  background: var(--color-card);
+  color: var(--text-primary);
+  border: 2px solid var(--sea-sky);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text-primary);
+  box-shadow: none;
+}
